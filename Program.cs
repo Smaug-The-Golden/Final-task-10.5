@@ -18,9 +18,8 @@ namespace Final_task_10._5
             ISum num = new Sum();
             var first_summand = num.GetFirstSummand();
             var second_summand = num.GetSecondSummand();
+            var summ = num.Sum(first_summand, second_summand);
 
-            ISum summ1 = new Sum();
-            var summ = summ1.Sum(first_summand, second_summand);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"\nСумма числа {first_summand} и числа {second_summand} равна {summ}");
             Console.ResetColor();
