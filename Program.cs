@@ -15,9 +15,9 @@ namespace Final_task_10._5
             Console.WriteLine("Программа складывает два числа.");
 
 
-            Sum ob = new Sum();
-            var first_summand = ob.GetFirstSummand();
-            var second_summand = ob.GetSecondSummand();
+            ISum num = new Sum();
+            var first_summand = num.GetFirstSummand();
+            var second_summand = num.GetSecondSummand();
 
             ISum summ1 = new Sum();
             var summ = summ1.Sum(first_summand, second_summand);

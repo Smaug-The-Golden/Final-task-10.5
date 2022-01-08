@@ -8,6 +8,8 @@ namespace Final_task_10._5
 {
     interface ISum
     {
+        int GetFirstSummand();
+        int GetSecondSummand();
         int Sum(int x, int y);
     }
 }

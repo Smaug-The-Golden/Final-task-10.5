@@ -15,7 +15,7 @@ namespace Final_task_10._5
         public delegate void Event_Delegate(string message);
 
 
-        public int GetFirstSummand()
+        int ISum.GetFirstSummand()
         {
             Console.WriteLine("\nВведите первое слагаемое:");
         mark1:
@@ -45,7 +45,7 @@ namespace Final_task_10._5
             return x;
         }
 
-        public int GetSecondSummand()
+        int ISum.GetSecondSummand()
         {
             Console.WriteLine("\nВведите второе слагаемое:");
         mark2:
